@@ -10,7 +10,7 @@ class BareHandler(http.server.BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == "/":
-            with open(os.path.join(os.path.dirname(__file__), 'bare_server_info.json'), 'r') as f:
+            with open(os.path.join(os.path.dirname(__file__), 'bare_server.json'), 'r') as f:
                 data = f.read()
             self.send_response(200)
             self.send_header("Content-Type", "application/json")

@@ -1,0 +1,16 @@
+{
+  "versions": ["v3"],
+  "language": "Python",
+  "maintainer": {
+    "email": "inbox@ryanwilson.space",
+    "website": "https://ryanwilson.space"
+  },
+  "project": {
+    "name": "bare-server-python",
+    "description": "",
+    "email": "admin@vyper.group",
+    "website": "https://vyper.group",
+    "repository": "https://github.com/VyperGroup/bare-server-python.git",
+    "version": "1.0.0"
+  }
+}
