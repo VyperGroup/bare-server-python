@@ -1,0 +1,19 @@
+[project]
+name = "bare_server_python_VYPER_GROUP"
+version = "0.0.1"
+authors = [
+  { name="Ryan Wilson", email="inbox@ryanwilson.space" },
+]
+description = "Implements the TompHTTP V3 standard"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+]
+[build-system]
+requires = ["aiohttp"]
+[project.urls]
+Homepage = "https://github.com/VyperGroup/bare-server-python"
+Issues = "https://github.com/VyperGroup/bare-server-python/issues"
